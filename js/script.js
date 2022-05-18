@@ -48,7 +48,7 @@ function getRandomQuote(){
     return quotes[randomNumber];
 }
 
-//prints the random quote to the html page
+//prints the random quote, source, citation and year to the html page
 function printQuote(){
     var randomQuote = getRandomQuote();
 
